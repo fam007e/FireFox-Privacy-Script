@@ -12,10 +12,10 @@ if [ $UID -ne 0 ]; then
 fi
 
 # Define the directories
-config_dir="/lib/firefox/"
-preferences_dir="/lib/firefox/browser/defaults/preferences/"
-distribution_dir="/lib/firefox/distribution/"
-extensions_dir="/lib/firefox/distribution/extensions/"
+config_dir="/lib/firefox-esr/"
+preferences_dir="/lib/firefox-esr/browser/defaults/preferences/"
+distribution_dir="/lib/firefox-esr/distribution/"
+extensions_dir="/lib/firefox-esr/distribution/extensions/"
 
 # Check if config_dir exists
 if [ ! -d "$config_dir" ]; then
